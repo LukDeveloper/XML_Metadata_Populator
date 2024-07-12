@@ -72,7 +72,7 @@ exemplo_dados = [
 ]
 
 # Caminho para Template XML ISO19115/19139
-with open('...', 'r', encoding='utf-8') as file:
+with open('input.xml', 'r', encoding='utf-8') as file:
     xml_template = file.read()
 
 # Diretório para salvar os arquivos XML de saída
