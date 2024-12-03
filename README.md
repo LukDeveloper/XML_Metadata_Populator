@@ -43,4 +43,14 @@ Este repositório contém um script em Python para automação da criação de a
            'online_resource_url_desc_1': 'Descrição do recurso online'
        }
    ]
+3. Execute o script:
 
+```bash
+python script.py
+```
+
+4. Os arquivos gerados serão salvos no diretório output_xml_files.
+
+## 🔧 Requisitos
+   - Python 3.x
+   - Biblioteca xml.etree.ElementTree (já incluída na biblioteca padrão do Python)
